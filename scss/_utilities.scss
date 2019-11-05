@@ -1,7 +1,9 @@
 // Colors
 $nav-color: #3a3a3a;
 $heading-color: #444964;
-
+$grey-color: #666666;
+$lightgrey-color: #888888;
+$darkgrey-color: #333333;
 
 
 // Text colors
@@ -19,6 +21,10 @@ $heading-color: #444964;
 
 .darkgrey-text {
   color: #333 !important;
+}
+
+.green-text {
+  color: #48af4b !important;
 }
 
 // Margin & Padding
@@ -83,17 +89,17 @@ $spaceamounts: (0, 1, 2, 3, 4, 5);
 
    // Padding left
    .pl-#{$space} {
-    padding-left: #{$space}rem;
+    padding-left: #{$space}rem !important;
   }
 
   // Padding right
   .pr-#{$space} {
-    padding-right: #{$space}rem;
+    padding-right: #{$space}rem !important;
   }
 
   // Horizontal padding
   .px-#{$space} {
-    padding: 0 #{$space}rem;
+    padding: 0 #{$space}rem !important;
   }
 }
 
@@ -170,22 +176,47 @@ transition: all .3s ease-in-out !important;
   &-1 {
     font-size: 3.6rem;
     color: $heading-color;
+    font-weight: 600 !important;
+    line-height: 50px;
   }
   &-2 {
-    font-size: 2.6rem;
+    font-size: 42px;
     color: $heading-color;
+    font-weight: 600 !important;
+    line-height: 50px;
   }
   &-3 {
     font-size: 38px;
-  color: $heading-color;
+    color: $heading-color;
+    font-weight: 600 !important;
   }
   &-4 {
     font-size: 26px;
-  color: $heading-color;
+    color: $heading-color;
+    font-weight: 600 !important;
   }
   &-5 {
     font-size: 19px;
-  color: $heading-color;
+    color: $heading-color;
+    font-weight: 600 !important;
+  }
+}
+
+.text{
+  &-left {
+    text-align: left;
+  }
+  &-center {
+    text-align: center;
+  }
+  &-right {
+    text-align: right;
+  }
+  &-uppercase {
+    text-transform: uppercase !important;
+  }
+  &-capitalize {
+    text-transform: capitalize !important;
   }
 }
 
@@ -193,6 +224,10 @@ transition: all .3s ease-in-out !important;
 .d-flex {
   display: flex !important;
   align-items: center !important;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 // Forms
