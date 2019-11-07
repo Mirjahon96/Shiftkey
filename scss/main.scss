@@ -2,6 +2,7 @@
 @import 'navbar';
 @import 'showcase';
 @import 'features';
+@import 'pricing';
 
 
 * {
@@ -57,4 +58,8 @@ p {
     transition: all 0.2s ease-in-out;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
     }
+}
+
+blockquote {
+  border-left: 3px solid #48af4b !important;
 }

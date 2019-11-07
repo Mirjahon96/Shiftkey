@@ -1,0 +1,53 @@
+#pricing {
+
+  .card {
+
+    h5 {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .pricing-symbol {
+      position: relative;
+    top: -10px;
+    right: 3px;
+    }
+
+    .pricing-amount {
+      font-size: 70px;
+      font-weight: 600;
+    }
+
+    sup {
+      font-size: 30px;
+      position: relative;
+      top: -28px;
+      margin-left: 2px;
+    }
+
+    .pricing-list {
+      li {
+        padding: 10px 0;
+        font-weight: 400;
+        line-height: 1;
+
+        i {
+          padding-right: 4px;
+        }
+      }
+    }
+
+    .card-footer {
+      .btn {
+        padding-left: 45px;
+        padding-right: 45px;
+      }
+    }
+  }
+
+  .card:nth-child(0) {
+    border-top: 7px solid #ddd;
+  }
+}

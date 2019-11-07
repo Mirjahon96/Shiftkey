@@ -27,6 +27,10 @@ $darkgrey-color: #333333;
   color: #48af4b !important;
 }
 
+.light-text {
+  color: #aaaaaa;
+}
+
 // Margin & Padding
 $spaceamounts: (0, 1, 2, 3, 4, 5);
 
@@ -99,7 +103,8 @@ $spaceamounts: (0, 1, 2, 3, 4, 5);
 
   // Horizontal padding
   .px-#{$space} {
-    padding: 0 #{$space}rem !important;
+    padding-left: #{$space}rem !important;
+    padding-right: #{$space}rem !important;
   }
 }
 
@@ -122,6 +127,7 @@ box-shadow: 0 2px 3px rgba(96,96,96,.1) !important;
 transition: all .3s ease-in-out !important;
 }
 
+// Buttons 
 .btn {
   box-shadow: none !important;
   border: 2px solid transparent;
@@ -129,6 +135,7 @@ transition: all .3s ease-in-out !important;
   align-items: center;
   text-transform: uppercase !important;
   font-weight: 500;
+  transition: all .3s ease-in-out;
 
   &.btn-outline {
     background: transparent;
@@ -159,7 +166,7 @@ transition: all .3s ease-in-out !important;
 }
 
 .medium {
-  padding: 22px 26px;
+  padding: 23.3px 26px;
 }
 
 // Typography
@@ -170,6 +177,18 @@ transition: all .3s ease-in-out !important;
 .span-text {
   font-size: 14px;
   font-weight: 300;
+}
+
+.font-weight {
+  &-light {
+    font-weight: 300 !important;
+  }
+  &-normal {
+    font-weight: 500 !important;
+  }
+  &-bold {
+    font-weight: 700 !important;
+  }
 }
 
 .heading {
@@ -203,15 +222,6 @@ transition: all .3s ease-in-out !important;
 }
 
 .text{
-  &-left {
-    text-align: left;
-  }
-  &-center {
-    text-align: center;
-  }
-  &-right {
-    text-align: right;
-  }
   &-uppercase {
     text-transform: uppercase !important;
   }
@@ -228,6 +238,10 @@ transition: all .3s ease-in-out !important;
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.d-inline {
+  display: inline-block;
 }
 
 // Forms
