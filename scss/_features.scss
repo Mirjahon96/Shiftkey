@@ -1,6 +1,10 @@
 // features part 1
 #features {
 
+  .col {
+    padding: 10px;
+  }
+
   img {
     width: 70px;
     height: 70px;
@@ -66,7 +70,7 @@
 
 // features part 4
 #features-4 {
-  background: #f8f9fb;
+  // background: #f8f9fb;
 
   .img-content {
     position: relative;

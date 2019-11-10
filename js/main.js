@@ -3,6 +3,8 @@ $(document).ready(function () {
 
   $(".dropdown-trigger").dropdown();
 
+  $('.tabs').tabs();
+
 })
 
 // Sidenav
@@ -12,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+// Scrollspy
 document.addEventListener('DOMContentLoaded', function () {
   var elems = document.querySelectorAll('.scrollspy');
   var instances = M.ScrollSpy.init(elems);
@@ -32,3 +35,4 @@ window.addEventListener('scroll', function (e) {
 
   }
 });
+

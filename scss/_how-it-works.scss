@@ -1,0 +1,30 @@
+#how-it-works {
+
+  .tabs {
+    height: auto;
+    overflow: hidden;
+    white-space: unset;
+
+    .indicator {
+      background: none;
+    }
+
+    .tab {
+      display: block;
+      height: auto;
+      text-align: left;
+
+      a.active h5 {
+        color: #48af4b !important;
+      }
+      a {
+        padding: 20px 20px;
+        text-transform: none;
+        &.active {
+          background: #f6f9fd;
+          
+        }
+      }
+    }
+  }
+}

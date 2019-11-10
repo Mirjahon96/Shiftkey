@@ -1,6 +1,11 @@
 #pricing {
+  background: url(/img/grey-textured.png) no-repeat center center/cover;
+  width: 100%;
+  background-color: #f8f9fb;
+  background-attachment: fixed;
 
   .card {
+    border-top: 7px solid #ddd;
 
     h5 {
       font-size: 16px;
@@ -41,13 +46,22 @@
 
     .card-footer {
       .btn {
-        padding-left: 45px;
-        padding-right: 45px;
+        height: auto !important;
+        display: block;
+      }
+      .btn-outline:hover {
+        color: #fff;
+        background-color: #333;
+      }
+      .btn-success:hover {
+        color: #333;
+        background-color: #fff !important;
+        border-color: #333;
       }
     }
   }
 
-  .card:nth-child(0) {
-    border-top: 7px solid #ddd;
+  .card.standart {
+    border-top: 7px solid #48af4b;
   }
 }
