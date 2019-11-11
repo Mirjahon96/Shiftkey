@@ -1,4 +1,4 @@
-// features part 1
+// Features part 1
 #features {
 
   .col {
@@ -18,15 +18,12 @@
   }
 }
 
-// features part 2
+// Features part 2
 #features-2 {
   background: #f8f9fb;
 
   span {
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: 1px;
+    @include span-text
   }
   .text {
 
@@ -43,21 +40,16 @@
   }
 }
 
-// features part 3
+// Features part 3
 #features-3 {
 
   span.heading {
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: 1px;
+    @include span-text;
   }
 
   .avatar-img {
     img {
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
+      @include avatar-img;
     }
   }
 
@@ -68,7 +60,7 @@
   }
 }
 
-// features part 4
+// Features part 4
 #features-4 {
   // background: #f8f9fb;
 
@@ -85,5 +77,16 @@
     h5 {
       line-height: 2.3rem;
     }
+  }
+}
+
+// Features part 5
+#features-5 {
+  
+  .img-content img {
+    text-align: center;
+    margin-right: 25px;
+    width: 65px;
+    height: 65px;
   }
 }

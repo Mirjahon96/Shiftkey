@@ -1,0 +1,33 @@
+#testimonials {
+
+  .text-content {
+    span {
+      @include span-text;
+    }
+
+    a.btn {
+      font-size: 14px;
+    }
+  }
+
+  .d-flex {
+    margin-bottom: 8px;
+
+    img {
+      @include avatar-img;
+    }
+
+    .stars {
+      i {
+        font-size: 14px;
+        color: #ffc832;
+        margin-right: 1px;
+      }
+    }
+  }
+
+  .custom-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

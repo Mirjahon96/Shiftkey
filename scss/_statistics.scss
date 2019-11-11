@@ -1,0 +1,21 @@
+#statistics {
+  background: url(/img/bg-image.jpg) no-repeat center top/cover;
+  background-attachment: fixed;
+  max-height: 400px;
+  display: flex;
+  align-items: center;
+  
+
+  .statistic-block {
+
+    h5 {
+      font-size: 4rem;
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    p {
+      font-weight: 400;
+    }
+  }
+}
