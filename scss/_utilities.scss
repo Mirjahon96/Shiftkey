@@ -4,6 +4,7 @@ $heading-color: #444964;
 $grey-color: #666666;
 $lightgrey-color: #888888;
 $darkgrey-color: #333333;
+$green-color: #48af4b;
 
 
 // Text colors
@@ -247,7 +248,7 @@ transition: all .3s ease-in-out !important;
 }
 
 // Forms
-.input {
+.input, .textarea {
   background-color: rgb(255, 255, 255) !important;
   color: rgb(102, 102, 102) !important;
   font-size: 18px !important;
@@ -261,8 +262,7 @@ transition: all .3s ease-in-out !important;
   margin-right: 6px !important;
 }
 
-input {
-  width: unset !important;
+input, textarea {
   margin: 0 !important;
   
   &:focus {

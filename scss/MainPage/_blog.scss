@@ -1,0 +1,54 @@
+#blog {
+
+  .card {
+
+    .card-image {
+      .card-title {
+        top: 0;
+        bottom: unset;
+        padding-left: 15px;
+      }
+      .badge {
+        position: relative;
+        z-index: 10;
+        border: 2px solid #fff;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 500;
+        font-size: 12px;
+      }
+
+        .btn-floating {
+        width: 54px;
+        height: 54px;
+        border: 2px solid #fff
+      }
+    }
+
+    p {
+      letter-spacing: -0.5px;
+      margin-bottom: 5px;
+    }
+    span {
+    color: $green-color;
+    font-weight: 500;
+    }
+
+    .card-content {
+      a {
+      color: $heading-color;
+      font-size: 17px;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+      transition: all .4s ease-in-out;
+      &:hover {
+        opacity: .7;
+        text-decoration: underline;
+        transition: all .4s ease-in-out;
+      }
+    }
+    }
+    
+  }
+  
+}

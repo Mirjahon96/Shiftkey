@@ -1,0 +1,14 @@
+#contact {
+  background: url(/img/bottom-clouds.jpg) no-repeat center bottom/cover;
+
+  form {
+      input, select {
+        padding: 2px 0 2px 15px !important;
+      }
+
+      textarea {
+        height: auto !important;
+        padding: 10px 0 10px 15px !important;
+      }
+    }
+}

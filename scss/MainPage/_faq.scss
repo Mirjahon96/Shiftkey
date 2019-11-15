@@ -1,0 +1,26 @@
+#faq {
+
+  .question {
+    margin-bottom: 1.5rem;
+    h5 {
+      margin-bottom: 8px;
+    }
+
+    ul {
+      margin-bottom: 1rem;
+      li {
+      padding: 5px;
+      list-style: disc;
+      margin-left: 12px;
+      color: $grey-color; 
+      }
+    }
+  }
+
+  .faq-footer {
+    a {
+      text-decoration-line: underline;
+    }
+  }
+  
+}

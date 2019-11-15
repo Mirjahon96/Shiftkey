@@ -1,0 +1,21 @@
+#cta {
+  background: $green-color url("/img/grey-textured.png") no-repeat center center/cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+
+  .btn.white {
+    margin-right: 1rem;
+    &:hover {
+    background: $green-color !important;
+    border-color: #fff;
+    color: #fff !important;
+    }
+  }
+  .btn-outline {
+    border-color: #Fff;
+    &:hover {
+      background: $darkgrey-color;
+    }
+  }
+}

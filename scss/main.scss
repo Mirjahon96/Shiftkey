@@ -1,12 +1,18 @@
 @import 'utilities';
 @import 'mixins';
-@import 'navbar';
-@import 'showcase';
-@import 'features';
-@import 'pricing';
-@import 'how-it-works';
-@import 'statistics';
-@import 'testimonials';
+// Main Page
+@import './MainPage/navbar';
+@import './MainPage/showcase';
+@import './MainPage/features';
+@import './MainPage/pricing';
+@import './MainPage/how-it-works';
+@import './MainPage/statistics';
+@import './MainPage/testimonials';
+@import './MainPage/faq';
+@import './MainPage/cta';
+@import './MainPage/blog';
+@import './MainPage/contact';
+@import './MainPage/footer';
 
 
 * {
