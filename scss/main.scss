@@ -1,24 +1,28 @@
 @import 'utilities';
 @import 'mixins';
 // Main Page
-@import './MainPage/navbar';
-@import './MainPage/showcase';
-@import './MainPage/features';
-@import './MainPage/pricing';
-@import './MainPage/how-it-works';
-@import './MainPage/statistics';
-@import './MainPage/testimonials';
-@import './MainPage/faq';
-@import './MainPage/cta';
-@import './MainPage/blog';
-@import './MainPage/contact';
-@import './MainPage/footer';
+@import './Home/navbar';
+@import './Home/showcase';
+@import './Home/features';
+@import './Home/pricing';
+@import './Home/how-it-works';
+@import './Home/statistics';
+@import './Home/testimonials';
+@import './Home/faq';
+@import './Home/cta';
+@import './Home/blog';
+@import './Home/contact';
+@import 'footer';
 
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -50,25 +54,19 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
-.back-to-top {
-  display: block;
-  position: fixed;
-  bottom: 18px;
-  right: 15px;
-
-    i {
+#backToTop {
     display: block;
-    font-size: 16px;
     width: 40px;
-    height: 40px;
-    line-height: 40px;
-    color: #fff;
-    background: #F63854;
-    border-radius: 30px;
-    text-align: center;
-    transition: all 0.2s ease-in-out;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
-    }
+    height: 45px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 4px;
+    background: #232323a6 url(/img/back-to-top.png) no-repeat;
+    background-position: 50% 48%;
+    transition: all 250ms linear;
+    z-index: 1000;
+
 }
 
 blockquote {

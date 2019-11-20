@@ -10,6 +10,7 @@
     height: 70px;
     float: left;
     margin-top: 5px;
+    margin-bottom: 10px;
   }
 
   .text-content {
@@ -22,7 +23,7 @@
 #features-2 {
   background: #f8f9fb;
 
-  span {
+  span.heading {
     @include span-text
   }
   .text {
@@ -67,6 +68,10 @@
   .img-content {
     position: relative;
     left: -70%;
+
+    img {
+      max-width: none;
+    }
   }
 
   .text-content {

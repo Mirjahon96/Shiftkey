@@ -4,19 +4,16 @@ $(document).ready(function () {
   $(".dropdown-trigger").dropdown();
 
   $('.tabs').tabs();
+
+  $(document).ready(function () {
+    $('.collapsible').collapsible();
+  });
 })
 
 // Sidenav
 document.addEventListener('DOMContentLoaded', function () {
   var elems = document.querySelectorAll('.sidenav');
   var instances = M.Sidenav.init(elems);
-});
-
-
-// Scrollspy
-document.addEventListener('DOMContentLoaded', function () {
-  var elems = document.querySelectorAll('.scrollspy');
-  var instances = M.ScrollSpy.init(elems);
 });
 
 // Scrollfire
