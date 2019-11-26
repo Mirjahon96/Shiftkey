@@ -12,6 +12,14 @@
 @import './Home/cta';
 @import './Home/blog';
 @import './Home/contact';
+// About Page
+@import './About/about';
+@import './About/about-features';
+@import './About/about-team';
+@import './About/about-partners';
+@import './About/about-testimonials';
+// Blog Page
+@import './Blog/blog-page';
 @import 'footer';
 
 
@@ -71,4 +79,8 @@ p {
 
 blockquote {
   border-left: 3px solid #48af4b !important;
+}
+
+nav {
+  background: transparent;
 }

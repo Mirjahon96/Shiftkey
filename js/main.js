@@ -5,8 +5,11 @@ $(document).ready(function () {
 
   $('.tabs').tabs();
 
-  $(document).ready(function () {
-    $('.collapsible').collapsible();
+  $('.collapsible').collapsible();
+
+  $('.carousel').carousel({
+    dist: 0,
+    numVisible: 0
   });
 })
 
@@ -15,20 +18,3 @@ document.addEventListener('DOMContentLoaded', function () {
   var elems = document.querySelectorAll('.sidenav');
   var instances = M.Sidenav.init(elems);
 });
-
-// Scrollfire
-window.addEventListener('scroll', function (e) {
-  const navbar = document.querySelector('#navbar');
-  var nav = document.getElementById('myNav');
-
-  if (document.documentElement.scrollTop || document.body.scrollTop > window.innerHeight) {
-    nav.classList.add('shadow');
-    navbar.classList.remove('py-3');
-
-  } else {
-    nav.classList.remove('shadow');
-    navbar.classList.add('py-3');
-
-  }
-});
-

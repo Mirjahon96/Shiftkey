@@ -1,0 +1,20 @@
+#about-team {
+
+  h5 {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: $grey-color;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      color: $darkgrey-color;
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    margin-top: 10px;
+  }
+}

@@ -5,6 +5,7 @@ $grey-color: #666666;
 $lightgrey-color: #888888;
 $darkgrey-color: #333333;
 $green-color: #48af4b;
+$section-bg: #f8f9fb;
 
 
 // Text colors
@@ -132,6 +133,11 @@ $spaceamounts: (0, 1, 2, 3, 4, 5);
 .shadow {
 box-shadow: 0 2px 3px rgba(96,96,96,.1) !important;
 transition: all .3s ease-in-out !important;
+}
+
+.colored-nav {
+  background-color: #fff;
+  transition: all .4s ease-in-out;
 }
 
 // Buttons 

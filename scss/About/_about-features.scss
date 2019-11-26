@@ -1,0 +1,84 @@
+#about-features {
+  span.heading {
+    @include span-text;
+    color: #cccccc;
+  }
+
+  .text {
+    i {
+      font-size: 14px;
+      color: $lightgrey-color;
+      float: left;
+      margin-top: 7px;
+    }
+
+    .overflow-hidden {
+      padding: 0 10px;
+    }
+  }
+}
+
+// About Features - 2
+#about-features-2 {
+  background: #f8f9fb;
+  .box {
+    img {
+      width: 65px;
+      height: 65px;
+      float: left;
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+
+    .text-content {
+      overflow: hidden;
+      padding-left: 20px;
+    }
+  }
+}
+
+// About Features - 3
+#about-features-3 {
+  span.heading {
+    @include span-text;
+    color: #cccccc;
+  }
+
+  .avatar-img {
+    img {
+      @include avatar-img;
+    }
+  }
+
+  .avatar-author {
+    position: relative;
+    top: -13px;
+    padding-left: 10px;
+  }
+}
+
+// About Features - 4
+#about-features-4 {
+  background: url('/img/about/blue-textured.jpg') no-repeat center center/cover;
+  background-attachment: fixed;
+
+  .stat-content {
+
+    i {
+      font-size: 52px;
+    }
+
+    h5 {
+      font-size: 38px;
+      margin-top: 4px;
+      margin-bottom: 0;
+      font-weight: 700;
+      letter-spacing: .5px;
+    }
+
+    p {
+      font-weight: 500;
+    }
+
+  }
+}
