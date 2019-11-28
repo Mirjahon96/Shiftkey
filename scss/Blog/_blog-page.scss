@@ -1,5 +1,5 @@
-#about {
-  background: url('/img/about/about-page.jpg') no-repeat center center/cover;
+#blog-page {
+  background: url('/img/blog/blogs-page.jpg') no-repeat center center/cover;
   color: #fff;
   position: relative;
   padding-top: 120px;
@@ -36,13 +36,9 @@
       align-items: center;
     }
 
-    .breadcrumb::before {
-      vertical-align: middle;
-    }
-
     .dropdown-content li>a {
-      color: $darkgrey-color;
       font-weight: 500;
+      color: $darkgrey-color;
     }
     .dropdown-content {
       width: auto !important;
@@ -50,7 +46,7 @@
       top: 58px !important;
     }
   }
-
+    
   .btn.btn-outline {
     border-color: #fff;
     color: #fff;
@@ -59,6 +55,12 @@
       border-color: #5ed16f !important;
     }
   }
+  }
+
+  .blog-showcase {
+    .breadcrumb:before {
+      vertical-align: middle;
+    }
   }
  
 }

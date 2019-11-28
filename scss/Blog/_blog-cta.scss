@@ -1,0 +1,17 @@
+#blog-cta {
+  background: url('/img/blog/newsletter-1.jpg') no-repeat fixed center center/cover;
+
+  form {
+    .input {
+      padding: 0 !important;
+    }
+
+    .btn-success {
+      border: 2px solid transparent;
+      &:hover {
+        background: transparent;
+        border-color: #fff;
+      }
+    }
+  }
+}
