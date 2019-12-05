@@ -1,10 +1,13 @@
-#blog-page {
-  background: url('/img/blog/blogs-page.jpg') no-repeat center center/cover;
+#contact-page {
+  background: url('/img/contact/contacts-page.jpg') no-repeat center center/cover;
   color: #fff;
   position: relative;
   padding-top: 120px;
   padding-bottom: 80px;
 
+  .heading-2 {
+    font-size: 48px;
+  }
   .navbar-fixed {
     position: fixed;
     top: 0;
@@ -43,24 +46,26 @@
       top: 58px !important;
     }
   }
-    
+
   .btn.btn-outline {
     border-color: #fff;
     color: #fff;
 
     &.nav-btn:hover {
       border-color: #5ed16f !important;
+     }
     }
-  }
   }
 
-  .blog-showcase {
-    .heading-2 {
-      font-size: 48px;
-    }
+  .about-showcase {
     .breadcrumb:before {
       vertical-align: middle;
     }
   }
  
+}
+
+// Contact Form
+#contact-form {
+  background: url('/img/bottom-clouds.jpg') no-repeat center bottom/cover;
 }

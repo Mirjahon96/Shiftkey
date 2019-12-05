@@ -1,0 +1,51 @@
+#single-post-showcase {
+  span.heading {
+    font-size: 13px !important;
+  }
+
+  a {
+    transition: all .3s ease;
+    font-weight: 600;
+    font-size: 15px;
+    color: #333;
+    &:hover {
+      opacity: .7;
+      transition: all .3s ease;
+    }
+  }
+
+  .link {
+    color: #3761bd !important;
+    font-weight: 300;
+    text-decoration: underline;
+  }
+
+  p {
+    font-weight: 300;
+  }
+
+  .author {
+    .heading-3 {
+    font-size: 32px;
+    }
+  .heading-5 {
+    font-size: 16px;
+    }
+  }
+
+  .content-list {
+    .text {
+      i {
+        font-size: 14px;
+        color: $lightgrey-color;
+        float: left;
+        margin-top: 7px;
+      }
+  
+      .overflow-hidden {
+        padding: 0 10px;
+      }
+    }
+  }
+  
+}

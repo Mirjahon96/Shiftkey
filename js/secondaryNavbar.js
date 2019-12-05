@@ -4,6 +4,7 @@ window.addEventListener('scroll', e => {
   let whiteLogo = document.querySelector('.logo-white');
   let nav2 = document.getElementById('myNav2');
   let navBtn = document.querySelector('.nav-btn');
+  let menuIcon = document.querySelector('.sidenav-trigger');
   navBtn.style.color = '#fff';
   navBtn.style.borderColor = '#fff';
 
@@ -19,6 +20,7 @@ window.addEventListener('scroll', e => {
     });
     navBtn.style.borderColor = '#000';
     navBtn.style.color = '#000';
+    menuIcon.style.color = '#000'
 
 
   } else {
@@ -33,6 +35,7 @@ window.addEventListener('scroll', e => {
     });
     navBtn.style.borderColor = '#fff';
     navBtn.style.color = '#fff';
+    menuIcon.style.color = '#fff'
   }
 
 });

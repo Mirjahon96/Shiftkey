@@ -1,0 +1,50 @@
+#single-post-share {
+  span.badge {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    padding: 12px 10px;
+    font-size: 13px;
+    text-transform: capitalize;
+    margin: 0 8px 8px 0;
+    transition: .3s all ease-in-out;
+
+    &:hover {
+      background: #ccc;
+      transition: .3s all ease-in-out;
+    }
+    a {
+    color: $darkgrey-color;
+    font-weight: 400;
+    }
+  }
+
+  // Share lists
+  .share-links {
+    a {
+      margin-right: 5px;
+      font-weight: unset !important;
+      text-transform: capitalize;
+    }
+    .btn {
+      padding: 12px 20px;
+      border: none !important;
+      margin-bottom: 10px;
+    }
+  }
+
+  // Related Post
+  .related-post {
+    .card {
+      background: $section-bg;
+      box-shadow: 0 0px 3px rgba(0, 0, 0, 0.3);
+    }
+    .card-image {
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+    }
+  }
+}

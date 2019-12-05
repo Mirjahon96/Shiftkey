@@ -114,6 +114,10 @@ $spaceamounts: (0, 1, 2, 3, 4, 5);
     padding-left: 10% !important;
     padding-right: 10% !important;
   }
+  .ps-5 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 // Body
@@ -243,6 +247,9 @@ transition: all .3s ease-in-out !important;
   &-capitalize {
     text-transform: capitalize !important;
   }
+  &-justify {
+    text-align: justify;
+  }
 }
 
 // Display
@@ -278,10 +285,15 @@ transition: all .3s ease-in-out !important;
   transition: all 400ms ease-in-out 0s !important;
   display: inline-block !important;
   margin-right: 6px !important;
+  box-sizing: border-box !important;
 
   &::placeholder {
     color: $grey-color;
   }
+}
+
+.textarea {
+  height: auto !important;
 }
 
 input, textarea {

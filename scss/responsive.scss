@@ -6,7 +6,7 @@
     line-height: 40px;
   }
   .heading-2 {
-    font-size: 1.9rem;
+    font-size: 2.3rem !important;
     line-height: 30px;
     letter-spacing: -1px;
   }
@@ -18,7 +18,7 @@
   }
   
 
-  // Showcase
+  // HOME PAGE =========================
   .showcase {
     p {
       margin-bottom: 0rem !important;
@@ -105,6 +105,15 @@
     }
   }
 
+  // SINGLE POST PAGE
+  #single-post-showcase {
+    .author {
+      .heading-3 {
+        font-size: 26px !important;
+      }
+    }
+  }
+
 }
 
 @media (max-width: 760px) {
@@ -112,12 +121,14 @@
   .heading {
     font-size: 12px !important;
   }
-
   h2 {
     margin-top: initial
   }
+  .heading-2 {
+    font-size: 26px !important;
+  }
 
-  // Showcase
+  // HOME PAGE ==============================
   .showcase {
     .text-content {
       text-align: center;
@@ -125,9 +136,17 @@
     }
   }
 
+  #cta .btn.white {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
   // Features, Pricing, Statistics, FAQs, CTA, Blog, Contact
   // #features, #pricing, #statistics, #faq, #cta, #blog, #contact {
     p.ps-10 {
+      padding: 0 !important;
+    }
+    .ps-5 {
       padding: 0 !important;
     }
   // }
@@ -176,8 +195,12 @@
   }
 
   // ABOUT PAGE ===================================
-  #about {
+  #about-page {
     padding-bottom: 0;
+
+    .heading-2 {
+      font-size: 26px !important;
+    }
   }
   #about-features {
     img {
@@ -221,6 +244,53 @@
   #about-partners {
     padding: 0 !important;
   }
+
+  // BLOG PAGE ==============================
+  #blog-page {
+    .blog-showcase {
+      .heading-2 {
+        font-size: 26px !important;
+      }
+    }
+  }
+
+  #blog-features {
+    .card {
+      .card-image {
+        .btn-floating {
+          width: 55px;
+          height: 55px;
+        }
+      }
+      .card-content {
+        a {
+          font-size: 18px;
+        }
+      }
+    }
+    .pagination {
+      padding-top: 0 !important;
+    }
+  }
+
+  #blog-aside {
+    .pl-4 {
+      padding-left: 0 !important;
+    }
+  }
+
+  // SINGLE POST PAGE
+  #single-post-showcase {
+    .author {
+      .heading-3 {
+        font-size: 21px !important;
+        padding: 0 5% !important;
+      }
+     .col:nth-child(2) {
+       text-align: center;
+     }
+    }
+  }
   
 }
 
@@ -263,6 +333,22 @@
         a {
           font-size: 16px;
         }
+      }
+    }
+  }
+
+  // SINGLE POST PAGE
+  #single-post-share {
+    
+    .related-post {
+      text-align: center;
+
+      .pl-2 {
+        padding: 0 !important;
+      }
+      img {
+        float: none !important;
+        margin: auto;
       }
     }
   }

@@ -22,6 +22,15 @@
 @import './Blog/blog-page';
 @import './Blog/blog-features';
 @import './Blog/blog-cta';
+// Single-Post Page
+@import './SinglePost/single-post';
+@import './SinglePost/single-post-showcase';
+@import './SinglePost/single-post-share';
+@import './SinglePost/single-post-related';
+@import './SinglePost/single-post-comments';
+@import './SinglePost/single-post-cta';
+// Contact Page
+@import './Contact/contact-page';
 @import 'footer';
 
 
@@ -61,7 +70,7 @@ p {
   margin-bottom: .5rem;
   line-height: 1.6;
   font-weight: 300;
-  font-family: 'Roboto', sans-serif;
+  // font-family: 'Roboto', sans-serif;
 }
 
 #backToTop {

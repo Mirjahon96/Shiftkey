@@ -1,0 +1,39 @@
+#single-post-comments {
+  .box {
+    img {
+      @include avatar-img;
+    }
+
+    .text {
+      span {
+        padding: 4px 0 5px 0;
+        font-size: 14px;
+        display: block;
+        a {
+        &:hover {
+          color: $darkgrey-color !important;
+          }
+        }
+      }
+    }
+  }
+
+  // Reply Comment
+  #reply-comment {
+    form {
+      .input-field {
+        margin-top: 10px !important;
+        margin-bottom: 2rem !important;
+      }
+      input, textarea {
+        &::placeholder {
+          color: $lightgrey-color !important;
+        }
+      }
+      label {
+        font-size: 14px !important;
+      }
+    }
+  } 
+
+}
