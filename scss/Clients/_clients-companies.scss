@@ -1,0 +1,14 @@
+#clients-companies {
+  .content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+  }
+  .box {
+    margin-bottom: 2rem;
+    img {
+      width: 200px;
+      padding: 0 10px;
+    }
+  }
+}

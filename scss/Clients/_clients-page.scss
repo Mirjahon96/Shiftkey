@@ -1,5 +1,5 @@
-#contact-page {
-  background: url('/img/contact/contacts-page.jpg') no-repeat center center/cover;
+#clients-page {
+  background: url('/img/clients/clients-page.jpg') no-repeat center center/cover;
   color: #fff;
   position: relative;
   padding-top: 120px;
@@ -57,15 +57,10 @@
     }
   }
 
-  .contact-showcase {
+  .clients-showcase {
     .breadcrumb:before {
       vertical-align: middle;
     }
   }
  
-}
-
-// Contact Form
-#contact-form {
-  background: url('/img/bottom-clouds.jpg') no-repeat center bottom/cover;
 }

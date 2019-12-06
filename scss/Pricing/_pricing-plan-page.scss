@@ -1,0 +1,204 @@
+#pricing-plan-page {
+  background: url('/img/pricing-plan/pricing-page.jpg') no-repeat center center/cover;
+  color: #fff;
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 80px;
+
+  .heading-2 {
+    font-size: 48px;
+  }
+  .navbar-fixed {
+    position: fixed;
+    top: 0;
+     nav {
+      height: 75px;
+      transition: all .4s ease-in-out;
+      display: flex;
+      align-items: center;
+
+    .brand-logo {
+      img {
+      width: 120px;
+      height: 30px;
+      vertical-align: middle;
+      }
+    }
+
+    a {
+      text-transform: capitalize !important;
+    }
+
+    .btn {
+      margin: 0 3px !important;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .dropdown-content li>a {
+      font-weight: 500;
+      color: $darkgrey-color;
+    }
+    .dropdown-content {
+      width: auto !important;
+      height: auto !important;
+      top: 58px !important;
+    }
+  }
+
+  .btn.btn-outline {
+    border-color: #fff;
+    color: #fff;
+
+    &.nav-btn:hover {
+      border-color: #5ed16f !important;
+     }
+    }
+  }
+
+  .pricing-plan-showcase {
+    .breadcrumb:before {
+      vertical-align: middle;
+    }
+  }
+ 
+}
+
+// Pricing-Plan Cards
+#pricing-plan-cards {
+  .card {
+    border-top: 7px solid #ddd;
+
+    h5 {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .heading-3 {
+      color: $darkgrey-color;
+    }
+
+    .pricing-symbol {
+      position: relative;
+    top: -10px;
+    right: 3px;
+    }
+
+    .pricing-amount {
+      font-size: 70px;
+      font-weight: 600;
+    }
+
+    sup {
+      font-size: 30px;
+      position: relative;
+      top: -28px;
+      margin-left: 2px;
+    }
+
+    .pricing-list {
+      display: inline-block;
+      li {
+        padding: 10px 0;
+        font-weight: 400;
+        line-height: 1;
+
+        i {
+          padding-right: 4px;
+        }
+      }
+    }
+
+    .card-footer {
+      .btn {
+        height: auto !important;
+        display: block;
+      }
+      .btn-outline:hover {
+        color: #fff;
+        background-color: #333;
+      }
+      .btn-success:hover {
+        color: #333;
+        background-color: #fff !important;
+        border-color: #333;
+      }
+    }
+  }
+
+  .card.standart {
+    border-top: 7px solid #48af4b;
+  }
+}
+
+// Pricing Plan Partners
+#pricing-plan-partners {
+  background-color: $section-bg;
+    .carousel {
+      height: 150px;
+
+      .carousel-item {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    img {
+      width: 185px;
+    }
+}
+
+// Pricing Plan Faq
+#pricing-plan-faq {
+  .question {
+    margin-bottom: 1.5rem;
+    h5 {
+      margin-bottom: 8px;
+      color: $darkgrey-color;
+    }
+
+    ul {
+      margin-bottom: 1rem;
+      li {
+      padding: 5px;
+      list-style: disc;
+      margin-left: 12px;
+      color: $grey-color; 
+      }
+    }
+  }
+
+  .faq-footer {
+    a {
+      text-decoration-line: underline;
+    }
+  }
+  
+}
+
+// Pricing Plan Cta
+#pricing-plan-cta {
+    background: url("/img/about/blue-textured.jpg") no-repeat center center/cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+  
+    .btn.btn-success {
+      margin-right: 1rem;
+      &:hover {
+      background: transparent !important;
+      border-color: #fff;
+      color: #fff !important;
+      }
+    }
+    .btn-outline {
+      border-color: #fff;
+      &:hover {
+        background: $darkgrey-color !important;
+        border-color: $darkgrey-color;
+      }
+    }
+}

@@ -127,6 +127,9 @@
   .heading-2 {
     font-size: 26px !important;
   }
+  a.breadcrumb {
+    font-size: 16px;
+  }
 
   // HOME PAGE ==============================
   .showcase {
@@ -138,7 +141,6 @@
 
   #cta .btn.white {
     margin-right: 0;
-    margin-bottom: 1rem;
   }
 
   // Features, Pricing, Statistics, FAQs, CTA, Blog, Contact
@@ -279,7 +281,7 @@
     }
   }
 
-  // SINGLE POST PAGE
+  // SINGLE POST PAGE ==========================
   #single-post-showcase {
     .author {
       .heading-3 {
@@ -289,6 +291,13 @@
      .col:nth-child(2) {
        text-align: center;
      }
+    }
+  }
+
+  // CLIENTS PAGE ============================
+  #clients-companies {
+    .content {
+      grid-template-columns: repeat(3, 1fr);
     }
   }
   
@@ -337,7 +346,7 @@
     }
   }
 
-  // SINGLE POST PAGE
+  // SINGLE POST PAGE  ==================
   #single-post-share {
     
     .related-post {
@@ -350,6 +359,14 @@
         float: none !important;
         margin: auto;
       }
+    }
+  }
+
+  // HOME & PRICING PLAN PAGE ====================
+  #faq, #pricing-plan-faq {
+    .px-2 {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
     }
   }
 }
