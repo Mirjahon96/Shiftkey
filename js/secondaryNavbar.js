@@ -12,7 +12,7 @@ window.addEventListener('scroll', e => {
     nav2.classList.add('colored-nav');
     nav2.classList.add('shadow');
     nav2.classList.remove('transparent');
-    nav2.classList.remove('py-3');
+    nav2.classList.remove('py-4');
     blackLogo.style.display = 'none';
     whiteLogo.style.display = 'block';
     document.querySelectorAll('.nav-links').forEach(el => {
@@ -25,7 +25,7 @@ window.addEventListener('scroll', e => {
 
   } else {
     nav2.classList.add('transparent');
-    nav2.classList.add('py-3');
+    nav2.classList.add('py-4');
     nav2.classList.remove('colored-nav');
     nav2.classList.remove('shadow');
     blackLogo.style.display = 'block';

@@ -1,0 +1,52 @@
+#faqs-page {
+  background: url('/img/faqs/faqs-page.jpg') no-repeat center center/cover;
+  @include secondary-navbar;
+}
+
+// FAQs Question
+#faqs-question {
+  padding-top: 7rem;
+  overflow: hidden;
+
+  span.heading {
+    @include span-text;
+  }
+
+  ul {
+    li {
+      border-bottom: 1px solid #ccc;
+    } 
+  } 
+    
+  
+  .collapsible {
+    box-shadow: none;
+    border: none;
+    
+    &-header {
+      padding: 20px 0;
+      border: none;
+    }
+
+    &-body {
+      padding: 5px 0 20px 0;
+    }
+  }
+
+  .img-content {
+    img {
+      max-width: none;
+    }
+  }
+}
+
+// FAQs Contact
+#faqs-contact {
+  background: url(/img/bottom-clouds.jpg) no-repeat center bottom/cover;
+  
+  form {
+    textarea {
+      padding: 10px 0 10px 15px !important;
+    }
+  }
+}

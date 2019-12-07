@@ -33,10 +33,10 @@
 @import './Contact/contact-page';
 // Clients Page
 @import './Clients/clients-page';
-@import './Clients/clients-companies';
-@import './Clients/clients-testimonials';
 // Pricing Plan Page
 @import './Pricing/pricing-plan-page';
+// FAQs Page
+@import './FAQs/faqs-page';
 @import 'footer';
 
 
@@ -89,7 +89,6 @@ p {
     border-radius: 4px;
     background: #232323a6 url(/img/back-to-top.png) no-repeat;
     background-position: 50% 48%;
-    transition: all 250ms linear;
     z-index: 1000;
 
 }

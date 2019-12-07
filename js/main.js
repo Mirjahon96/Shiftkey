@@ -11,10 +11,20 @@ $(document).ready(function () {
     dist: 0,
     numVisible: 0
   });
-})
+
+  // Scroll to top
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 300) {
+      $('#backToTop').fadeIn();
+    } else {
+      $('#backToTop').fadeOut();
+    }
+  })
+});
 
 // Sidenav
 document.addEventListener('DOMContentLoaded', function () {
   var elems = document.querySelectorAll('.sidenav');
   var instances = M.Sidenav.init(elems);
 });
+

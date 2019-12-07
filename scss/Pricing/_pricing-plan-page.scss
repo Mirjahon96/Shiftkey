@@ -1,68 +1,6 @@
 #pricing-plan-page {
   background: url('/img/pricing-plan/pricing-page.jpg') no-repeat center center/cover;
-  color: #fff;
-  position: relative;
-  padding-top: 120px;
-  padding-bottom: 80px;
-
-  .heading-2 {
-    font-size: 48px;
-  }
-  .navbar-fixed {
-    position: fixed;
-    top: 0;
-     nav {
-      height: 75px;
-      transition: all .4s ease-in-out;
-      display: flex;
-      align-items: center;
-
-    .brand-logo {
-      img {
-      width: 120px;
-      height: 30px;
-      vertical-align: middle;
-      }
-    }
-
-    a {
-      text-transform: capitalize !important;
-    }
-
-    .btn {
-      margin: 0 3px !important;
-      font-weight: 500;
-      display: inline-flex;
-      align-items: center;
-    }
-
-    .dropdown-content li>a {
-      font-weight: 500;
-      color: $darkgrey-color;
-    }
-    .dropdown-content {
-      width: auto !important;
-      height: auto !important;
-      top: 58px !important;
-    }
-  }
-
-  .btn.btn-outline {
-    border-color: #fff;
-    color: #fff;
-
-    &.nav-btn:hover {
-      border-color: #5ed16f !important;
-     }
-    }
-  }
-
-  .pricing-plan-showcase {
-    .breadcrumb:before {
-      vertical-align: middle;
-    }
-  }
- 
+  @include secondary-navbar;
 }
 
 // Pricing-Plan Cards
